@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecomm_Database_Class.Data
+namespace Ecomm_Database_Class
 {
     class AppDbContext : DbContext
     {
