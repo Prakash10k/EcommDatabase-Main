@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7763EEF4-927A-44B9-BFBC-347F79302214}|Ecomm-Database-Class\\Ecomm-Database-Class.csproj|c:\\users\\2392848\\onedrive - cognizant\\documents\\1.cohort\\ecommdatabase-main\\ecomm-database-class\\ecomm-database-class\\repository\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7763EEF4-927A-44B9-BFBC-347F79302214}|Ecomm-Database-Class\\Ecomm-Database-Class.csproj|solutionrelative:ecomm-database-class\\repository\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7763EEF4-927A-44B9-BFBC-347F79302214}|Ecomm-Database-Class\\Ecomm-Database-Class.csproj|c:\\users\\2392848\\onedrive - cognizant\\documents\\1.cohort\\ecommdatabase-main\\ecomm-database-class\\ecomm-database-class\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7763EEF4-927A-44B9-BFBC-347F79302214}|Ecomm-Database-Class\\Ecomm-Database-Class.csproj|solutionrelative:ecomm-database-class\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7763EEF4-927A-44B9-BFBC-347F79302214}|Ecomm-Database-Class\\Ecomm-Database-Class.csproj|c:\\users\\2392848\\onedrive - cognizant\\documents\\1.cohort\\ecommdatabase-main\\ecomm-database-class\\ecomm-database-class\\migrations\\20250326051345_initailmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7763EEF4-927A-44B9-BFBC-347F79302214}|Ecomm-Database-Class\\Ecomm-Database-Class.csproj|solutionrelative:ecomm-database-class\\migrations\\20250326051345_initailmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7763EEF4-927A-44B9-BFBC-347F79302214}|Ecomm-Database-Class\\Ecomm-Database-Class.csproj|c:\\users\\2392848\\onedrive - cognizant\\documents\\1.cohort\\ecommdatabase-main\\ecomm-database-class\\ecomm-database-class\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7763EEF4-927A-44B9-BFBC-347F79302214}|Ecomm-Database-Class\\Ecomm-Database-Class.csproj|solutionrelative:ecomm-database-class\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250326051345_InitailMigration.cs",
+              "DocumentMoniker": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\Ecomm-Database-Class\\Migrations\\20250326051345_InitailMigration.cs",
+              "RelativeDocumentMoniker": "Ecomm-Database-Class\\Migrations\\20250326051345_InitailMigration.cs",
+              "ToolTip": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\Ecomm-Database-Class\\Migrations\\20250326051345_InitailMigration.cs",
+              "RelativeToolTip": "Ecomm-Database-Class\\Migrations\\20250326051345_InitailMigration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:13:45.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\Ecomm-Database-Class\\Repository\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "Ecomm-Database-Class\\Repository\\OrderRepo.cs",
+              "ToolTip": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\Ecomm-Database-Class\\Repository\\OrderRepo.cs",
+              "RelativeToolTip": "Ecomm-Database-Class\\Repository\\OrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:12:16.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\Ecomm-Database-Class\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "Ecomm-Database-Class\\Model\\Order.cs",
+              "ToolTip": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\Ecomm-Database-Class\\Model\\Order.cs",
+              "RelativeToolTip": "Ecomm-Database-Class\\Model\\Order.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:06:59.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\Ecomm-Database-Class\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Ecomm-Database-Class\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\EcommDatabase-Main\\Ecomm-Database-Class\\Ecomm-Database-Class\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Ecomm-Database-Class\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:37:29.023Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

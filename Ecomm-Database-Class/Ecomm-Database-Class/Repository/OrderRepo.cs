@@ -58,5 +58,10 @@ namespace Ecomm_Database_Class.Repository
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<List<Order>> GetOrdersByUserIdAsync(int userId)
+        {
+            return await _context.Orders.Where(o => o.UserID == userId).ToListAsync();
+        }
     }
 }
