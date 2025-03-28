@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ecomm-Database-Class")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c57e41902ad4b902d7ae9886394d4b271d9e5fe1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66921a49e474f331a4c6d6ab8f48c6a57dbf7b42")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ecomm-Database-Class")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ecomm-Database-Class")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
