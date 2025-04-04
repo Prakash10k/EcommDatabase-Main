@@ -1,8 +1,10 @@
 using Ecomm_Database_Class.Data;
+using Ecomm_Database_Class.Repository;
+using Ecomm_Database_Class.Repository.IRepository;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddScoped<ICartOperations, CartOperations>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
