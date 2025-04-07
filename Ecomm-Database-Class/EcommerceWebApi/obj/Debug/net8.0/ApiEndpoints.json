@@ -1,5 +1,69 @@
 [
   {
+    "ContainingType": "Ecomm_Database_Class.Controllers.AdminController",
+    "Method": "DeleteAdmin",
+    "RelativePath": "Admin/DeleteAdmin/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecomm_Database_Class.Controllers.AdminController",
+    "Method": "GetAdminById",
+    "RelativePath": "Admin/GetAdminById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecomm_Database_Class.Controllers.AdminController",
+    "Method": "InsertAdmin",
+    "RelativePath": "Admin/InsertAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admin",
+        "Type": "Ecomm_Database_Class.Model.AdminTable1",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecomm_Database_Class.Controllers.AdminController",
+    "Method": "UpdateAdmin",
+    "RelativePath": "Admin/UpdateAdmin",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admin",
+        "Type": "Ecomm_Database_Class.Model.AdminTable1",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EcommerceWebApi.Controllers.CartController",
     "Method": "GetAllCarts",
     "RelativePath": "api/Cart",

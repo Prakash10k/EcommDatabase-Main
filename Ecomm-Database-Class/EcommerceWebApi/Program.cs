@@ -3,6 +3,7 @@ using Ecomm_Database_Class.Repository;
 using Ecomm_Database_Class.Repository.IRepository;
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
 builder.Services.AddScoped<ICartOperations, CartOperations>();
 builder.Services.AddControllers();
@@ -10,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>();
+builder.Services.AddScoped<IAdmin_Repo, Admin_Repo>();
 
 var app = builder.Build();
 
