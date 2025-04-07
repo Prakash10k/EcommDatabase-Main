@@ -1,1 +1,19 @@
-.vs/
+
+# Ignore bin and obj folders
+**/bin/
+**/obj/
+
+# Ignore migration files (assuming they are in a Migrations folder)
+Migrations/
+
+# Ignore other common files and folders
+*.log
+*.tmp
+*.bak
+*.swp
+*.user
+*.vs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
