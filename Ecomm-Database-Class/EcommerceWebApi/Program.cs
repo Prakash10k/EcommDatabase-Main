@@ -13,6 +13,7 @@ builder.Services.AddDbContext<AppDbContext>();
 builder.Services.AddScoped<ICartOperations, CartOperations>();
 builder.Services.AddScoped<IAdmin_Repo, Admin_Repo>();
 builder.Services.AddScoped<IOrderRepo, OrderRepo>();
+builder.Services.AddScoped<IUserRepo, UserRepo>();
 
 var app = builder.Build();
 
