@@ -7,20 +7,37 @@ using System.Threading.Tasks;
 namespace Ecomm_Database_Class.Model
 {
     public class Product
-    {
-        public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string Brand { get; set; } = string.Empty;
-        public decimal Price { get; set; }
-        public string Description { get; set; } = string.Empty;
-        public string ImageUrl { get; set; } = string.Empty;
-        public int Quantity { get; set; }
+{
+    [Key]
+    public int Id { get; set; }
+    [Required(ErrorMessage = "Name is required")]
+    [StringLength(100, ErrorMessage = "Name can't be longer than 100 characters")]
+    public string Name { get; set; } = string.Empty;
+    [Required(ErrorMessage = "Brand is required")]
+    [StringLength(50, ErrorMessage = "Brand can't be longer than 50 characters")]
+    public string Brand { get; set; } = string.Empty;
 
-        public int CategoryId { get; set; }
-        public Category? Category { get; set; }
+    [Required(ErrorMessage = "Price is required")]
+    [Range(0.01, double.MaxValue, ErrorMessage = "Price must be greater than zero")]
+    public decimal Price { get; set; }
+    [Required(ErrorMessage = "Description is required")]
+    [StringLength(500, ErrorMessage = "Description can't be longer than 500 characters")]
+    public string Description { get; set; } = string.Empty;
+    [Url(ErrorMessage = "Invalid URL format")]
+    public string ImageUrl { get; set; } = string.Empty;
+    [Range(0, int.MaxValue, ErrorMessage = "Quantity must be a non-negative number")]
+    public int Quantity { get; set; }
+    [Required(ErrorMessage = "CategoryId is required")]
 
-        public int SubCategoryId { get; set; }
-        public SubCategory? SubCategory { get; set; }
-        public int? SoldCount { get; internal set; }
-    }
+    public int CategoryId { get; set; }
+    [ForeignKey("CategoryId")]
+    [ValidateNever]
+    public Category? Category { get; set; }
+    [Required(ErrorMessage = "SubCategoryId is required")]
+    public int SubCategoryId { get; set; }
+  
+    public SubCategory? SubCategory { get; set; }
+    [Range(0, int.MaxValue, ErrorMessage = "SoldCount must be a non-negative number")]
+    public int? SoldCount { get; internal set; }
+}
 }
