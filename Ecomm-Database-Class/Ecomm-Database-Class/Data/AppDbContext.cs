@@ -43,15 +43,6 @@ namespace Ecomm_Database_Class.Data
         .HasForeignKey(sc => sc.SubCategoryId)
         .OnDelete(DeleteBehavior.NoAction);
 
-    //modelBuilder.Entity<Category>()
-    //    .HasMany(c => c.Products)
-    //    .WithOne(p => p.Category!)
-    //    .HasForeignKey(p => p.CategoryId);
-
-    //modelBuilder.Entity<SubCategory>()
-    //    .HasMany(sc => sc.Products)
-    //    .WithOne(p => p.SubCategory!)
-    //    .HasForeignKey(p => p.SubCategoryId);
 
     // Seed Category
     modelBuilder.Entity<Category>().HasData(
